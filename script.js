@@ -1,6 +1,4 @@
-//your code here
-/* Your CSS Code here. */
-function majorityElement(arr) {
+function majorElement(arr) {
     let count = 0;
     let candidate = null;
 
