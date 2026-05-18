@@ -15,3 +15,6 @@ function majorElement(arr) {
 
     return candidate;
 }
+
+// Ensure the function is globally accessible to test suites
+window.majorElement = majorElement;
