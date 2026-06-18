@@ -1,3 +1,9 @@
+/**
+ * Finds the majority element in an array.
+ * A majority element is one that appears more than floor(n/2) times.
+ * * @param {number[]} arr - The input array.
+ * @returns {number} The majority element.
+ */
 function majorElement(arr) {
     let count = 0;
     let candidate = null;
